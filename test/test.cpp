@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    string out = exec("bash bash_cmd.sh");
+    string out = exec("ls -lha");
 
     cout << out << endl;
     

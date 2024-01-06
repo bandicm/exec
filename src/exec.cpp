@@ -1,9 +1,5 @@
 #include "../lib/exec.hpp"
 
-/**
- * Funkcija za pozivanje bash naredbi s odgovorom
-*/
-
 string exec(const string command) {
     FILE *fds;
     char cstr[200];
