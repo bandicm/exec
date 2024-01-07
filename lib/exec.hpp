@@ -6,11 +6,14 @@
 
 using namespace std;
 
+namespace marcelb {
+
 /**
  * Execute bash command
 */
+string exec(const string& command);
 
-string exec(const string command);
+}
 
 
 #endif

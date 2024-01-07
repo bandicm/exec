@@ -1,6 +1,6 @@
 #include "../lib/exec.hpp"
 
-string exec(const string command) {
+string marcelb::exec(const string& command) {
     FILE *fds;
     char cstr[200];
     fds = popen(command.c_str(), "r");
